@@ -1,6 +1,7 @@
 name: A workflow for my Hello Bob file
-on: issues
-  types: [opened, edited]
+on: 
+  issues:
+    types: [opened, edited]
 jobs:
   build:
     name: Test my action
