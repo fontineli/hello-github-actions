@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: goodquestiondev/staticfy-issues@v1.1
+      - uses: goodquestiondev/staticfy-issues@v1.2
         with:
           folder-name: "MyFolder"
